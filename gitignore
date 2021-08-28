@@ -1,15 +1,15 @@
 # Config files, logs and stuff
-VAMP-X/modules/helper_funcs/temp.txt
-VAMP-X/elevated_users.json
-VAMP-X/config.py
-VAMP-X/config.ini
+VAMPxROBOT/modules/helper_funcs/temp.txt
+VAMPxROBOT/elevated_users.json
+VAMPxROBOT/config.py
+VAMPxROBOT/config.ini
 log.txt
 kangsticker.png
 updates.txt
 
 # Session files
-VAMP-X/*.session
-VAMP-X/*.session-journal
+VAMPxROBOT/*.session
+VAMPxROBOT/*.session-journal
 Masha.session-journal
 *.session
 
