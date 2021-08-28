@@ -1,2 +1,2 @@
-worker: python3 -m VAMP-X
+worker: python3 -m VAMPxOBOT
 ps:scale worker=1
