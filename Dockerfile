@@ -64,12 +64,12 @@ RUN apt update && apt upgrade -y && \
 # Pypi package Repo upgrade
 RUN pip3 install --upgrade pip setuptools
 
-# Copy Python Requirements to /root/VAMP-X
-RUN git clone -b shiken https://github.com/D15H4NT0P/VAMP-X /root/VAMP-X
-WORKDIR /root/VAMP-X
+# Copy Python Requirements to /root/VAMPxROBOT
+RUN git clone -b shiken https://github.com/D15H4NT0P/VAMPxROBOT /root/VAMPxROBOT
+WORKDIR /root/VAMPxROBOT
 
-#Copy config file to /root/VAMP-X/VAMP-X
-COPY ./VAMP-X/sample_config.py ./VAMP-X/config.py* /root/VAMP-X/VAMP-X/
+#Copy config file to /root/VAMPxROBOT/VAMPxROBOT
+COPY ./VAMPxROBOT/sample_config.py ./VAMPxROBOT/config.py* /root/VAMPxROBOT/VAMPxROBOT/
 
 ENV PATH="/home/bot/bin:$PATH"
 
@@ -77,4 +77,4 @@ ENV PATH="/home/bot/bin:$PATH"
 RUN pip3 install -U -r requirements.txt
 
 # Starting Worker
-CMD ["python3","-m","VAMP-X"]
+CMD ["python3","-m","VAMPxROBOT"]
