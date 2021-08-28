@@ -1,5 +1,5 @@
 from envparse import env
-from VAMP-X import LOGGER
+from VAMPxROBOT import LOGGER
 
 DEFAULTS = {
     "LOAD_MODULES": True,
