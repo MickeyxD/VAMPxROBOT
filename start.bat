@@ -1,4 +1,4 @@
 @echo off
-TITLE VAMP-X 
+TITLE VAMPxROBOT 
 :: Enables virtual env mode and then starts asuna
-env\scripts\activate.bat && py -m VAMP-X
+env\scripts\activate.bat && py -m VAMPxROBOT
