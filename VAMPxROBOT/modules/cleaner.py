@@ -1,14 +1,14 @@
 import html
 
-from VAMPxROBOT import ALLOW_EXCL, CustomCommandHandler, dispatcher
-from VAMPxROBOT.modules.disable import DisableAbleCommandHandler
-from VAMPxROBOT.modules.helper_funcs.chat_status import (
+from MICKEYxROBOT import ALLOW_EXCL, CustomCommandHandler, dispatcher
+from MICKEYxROBOT.modules.disable import DisableAbleCommandHandler
+from MICKEYxROBOT.modules.helper_funcs.chat_status import (
     bot_can_delete,
     connection_status,
     dev_plus,
     user_admin,
 )
-from VAMPxROBOT.modules.sql import cleaner_sql as sql
+from MICKEYxROBOT.modules.sql import cleaner_sql as sql
 from telegram import ParseMode, Update
 from telegram.ext import (
     CallbackContext,

@@ -1,9 +1,9 @@
 import os
 from time import sleep
 
-from VAMPxROBOT import OWNER_ID, dispatcher
-from VAMPxROBOT.modules.helper_funcs.extraction import extract_user
-from VAMPxROBOT.modules.sql.users_sql import get_user_com_chats
+from MICKEYxROBOT import OWNER_ID, dispatcher
+from MICKEYxROBOT.modules.helper_funcs.extraction import extract_user
+from MICKEYxROBOT.modules.sql.users_sql import get_user_com_chats
 from telegram import Update
 from telegram.error import BadRequest, RetryAfter, Unauthorized
 from telegram.ext import CallbackContext, CommandHandler, Filters

@@ -1,7 +1,7 @@
 import random
 
-from VAMPxROBOT import dispatcher
-from VAMPxROBOT.modules.disable import DisableAbleCommandHandler
+from MICKEYxROBOT import dispatcher
+from MICKEYxROBOT.modules.disable import DisableAbleCommandHandler
 from telegram import Update
 from telegram.ext import CallbackContext, run_async
 

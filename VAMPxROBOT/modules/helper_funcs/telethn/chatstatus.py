@@ -1,5 +1,5 @@
-from VAMPxROBOT.modules.helper_funcs.telethn import IMMUNE_USERS, telethn
-from VAMPxROBOT import DRAGONS
+from MICKEYxROBOT.modules.helper_funcs.telethn import IMMUNE_USERS, telethn
+from MICKEYxROBOT import DRAGONS
 from telethon.tl.types import ChannelParticipantsAdmins
 
 

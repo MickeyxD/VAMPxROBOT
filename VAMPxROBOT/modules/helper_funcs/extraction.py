@@ -1,7 +1,7 @@
 from typing import List, Optional
 
-from VAMPxROBOT import LOGGER
-from VAMPxROBOT.modules.users import get_user_id
+from MICKEYxROBOT import LOGGER
+from MICKEYxROBOT.modules.users import get_user_id
 from telegram import Message, MessageEntity
 from telegram.error import BadRequest
 

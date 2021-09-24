@@ -3,7 +3,7 @@ import threading
 
 from sqlalchemy import Column, String, Boolean
 
-from VAMPxROBOT.modules.sql import SESSION, BASE
+from MICKEYxROBOT.modules.sql import SESSION, BASE
 
 
 class Permissions(BASE):

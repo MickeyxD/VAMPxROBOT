@@ -5,10 +5,10 @@ import sys
 from contextlib import suppress
 from time import sleep
 
-import VAMPxROBOT
+import MICKEYxROBOT
 
-from VAMPxROBOT import dispatcher
-from VAMPxROBOT.modules.helper_funcs.chat_status import dev_plus
+from MICKEYxROBOT import dispatcher
+from MICKEYxROBOT.modules.helper_funcs.chat_status import dev_plus
 from telegram import TelegramError, Update
 from telegram.error import Unauthorized
 from telegram.ext import CallbackContext, CommandHandler, run_async
@@ -21,9 +21,9 @@ def allow_groups(update: Update, context: CallbackContext):
         update.effective_message.reply_text(f"Current state: {YoneRobot.ALLOW_CHATS}")
         return
     if args[0].lower() in ["off", "no"]:
-        VAMPxROBOT.ALLOW_CHATS = True
+        MICKEYxROBOT.ALLOW_CHATS = True
     elif args[0].lower() in ["yes", "on"]:
-        VAMPxROBOT.ALLOW_CHATS = False
+        MICKEYxROBOT.ALLOW_CHATS = False
     else:
         update.effective_message.reply_text("Format: /lockdown Yes/No or Off/On")
         return

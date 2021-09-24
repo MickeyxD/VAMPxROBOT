@@ -64,12 +64,12 @@ RUN apt update && apt upgrade -y && \
 # Pypi package Repo upgrade
 RUN pip3 install --upgrade pip setuptools
 
-# Copy Python Requirements to /root/VAMPxROBOT
-RUN git clone -b shiken https://github.com/D15H4NT0P/VAMPxROBOT /root/VAMPxROBOT
-WORKDIR /root/VAMPxROBOT
+# Copy Python Requirements to /root/MICKEYxROBOT
+RUN git clone -b shiken https://github.com/D15H4NT0P/MICKEYxROBOT /root/MICKEYxROBOT
+WORKDIR /root/MICKEYxROBOT
 
-#Copy config file to /root/VAMPxROBOT/VAMPxROBOT
-COPY ./VAMPxROBOT/sample_config.py ./VAMPxROBOT/config.py* /root/VAMPxROBOT/VAMPxROBOT/
+#Copy config file to /root/MICKEYxROBOT/MICKEYxROBOT
+COPY ./MICKEYxROBOT/sample_config.py ./MICKEYxROBOT/config.py* /root/MICKEYxROBOT/MICKEYxROBOT/
 
 ENV PATH="/home/bot/bin:$PATH"
 
@@ -77,4 +77,4 @@ ENV PATH="/home/bot/bin:$PATH"
 RUN pip3 install -U -r requirements.txt
 
 # Starting Worker
-CMD ["python3","-m","VAMPxROBOT"]
+CMD ["python3","-m","MICKEYxROBOT"]

@@ -1,7 +1,7 @@
 import speedtest
-from VAMPxROBOT import DEV_USERS, dispatcher
-from VAMPxROBOT.modules.disable import DisableAbleCommandHandler
-from VAMPxROBOT.modules.helper_funcs.chat_status import dev_plus
+from MICKEYxROBOT import DEV_USERS, dispatcher
+from MICKEYxROBOT.modules.disable import DisableAbleCommandHandler
+from MICKEYxROBOT.modules.helper_funcs.chat_status import dev_plus
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
 from telegram.ext import CallbackContext, CallbackQueryHandler, run_async
 

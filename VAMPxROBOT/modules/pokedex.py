@@ -1,6 +1,6 @@
 import aiohttp
 from pyrogram import filters
-from VAMPxROBOT import pbot as asuna
+from MICKEYxROBOT import pbot as asuna
 
 @asuna.on_message(filters.command('pokedex'))
 async def PokeDex(_, message):

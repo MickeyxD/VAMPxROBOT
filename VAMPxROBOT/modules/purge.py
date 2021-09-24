@@ -1,8 +1,8 @@
 import time
 from telethon import events
 
-from VAMPxROBOT import telethn
-from VAMPxROBOT.modules.helper_funcs.telethn.chatstatus import (
+from MICKEYxROBOT import telethn
+from MICKEYxROBOT.modules.helper_funcs.telethn.chatstatus import (
     can_delete_messages,
     user_is_admin,
 )

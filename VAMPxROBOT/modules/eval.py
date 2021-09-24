@@ -6,8 +6,8 @@ import textwrap
 import traceback
 from contextlib import redirect_stdout
 
-from VAMPxROBOT import LOGGER, dispatcher
-from VAMPxROBOT.modules.helper_funcs.chat_status import dev_plus
+from MICKEYxROBOT import LOGGER, dispatcher
+from MICKEYxROBOT.modules.helper_funcs.chat_status import dev_plus
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, CommandHandler, run_async
 

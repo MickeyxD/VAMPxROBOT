@@ -1,9 +1,9 @@
 import html
 
-from VAMPxROBOT import LOGGER, DRAGONS, TIGERS, WOLVES, dispatcher
-from VAMPxROBOT.modules.helper_funcs.chat_status import user_admin, user_not_admin
-from VAMPxROBOT.modules.log_channel import loggable
-from VAMPxROBOT.modules.sql import reporting_sql as sql
+from MICKEYxROBOT import LOGGER, DRAGONS, TIGERS, WOLVES, dispatcher
+from MICKEYxROBOT.modules.helper_funcs.chat_status import user_admin, user_not_admin
+from MICKEYxROBOT.modules.log_channel import loggable
+from MICKEYxROBOT.modules.sql import reporting_sql as sql
 from telegram import Chat, InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
 from telegram.error import BadRequest, Unauthorized
 from telegram.ext import (

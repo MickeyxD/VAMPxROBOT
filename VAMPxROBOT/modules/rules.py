@@ -1,9 +1,9 @@
 from typing import Optional
 
-import VAMPxROBOT.modules.sql.rules_sql as sql
-from VAMPxROBOT import dispatcher
-from VAMPxROBOT.modules.helper_funcs.chat_status import user_admin
-from VAMPxROBOT.modules.helper_funcs.string_handling import markdown_parser
+import MICKEYxROBOT.modules.sql.rules_sql as sql
+from MICKEYxROBOT import dispatcher
+from MICKEYxROBOT.modules.helper_funcs.chat_status import user_admin
+from MICKEYxROBOT.modules.helper_funcs.string_handling import markdown_parser
 from telegram import (
     InlineKeyboardButton,
     InlineKeyboardMarkup,

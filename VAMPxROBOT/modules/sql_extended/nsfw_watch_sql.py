@@ -13,7 +13,7 @@
 
 from sqlalchemy import Column, String
 
-from VAMPxROBOT.modules.sql import BASE, SESSION
+from MICKEYxROBOT.modules.sql import BASE, SESSION
 
 
 class Nsfwatch(BASE):

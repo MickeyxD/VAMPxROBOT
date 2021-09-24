@@ -12,9 +12,9 @@ from tswift import Song
 from youtube_dl import YoutubeDL
 from youtubesearchpython import SearchVideos
 
-from VAMPxROBOT.conf import get_str_key
-from VAMPxROBOT.pyrogramee.pluginshelper import get_text, progress
-from VAMPxROBOT import pbot
+from MICKEYxROBOT.conf import get_str_key
+from MICKEYxROBOT.pyrogramee.pluginshelper import get_text, progress
+from MICKEYxROBOT import pbot
 
 GENIUS = get_str_key("GENIUS_API_TOKEN", None)
 

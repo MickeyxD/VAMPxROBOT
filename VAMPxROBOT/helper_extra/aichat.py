@@ -1,4 +1,4 @@
-from VAMPxROBOT.mongo import client as db_x
+from MICKEYxROBOT.mongo import client as db_x
 
 lydia = db_x["CAHTBOT"]
 

@@ -1,9 +1,9 @@
 from time import sleep
 
-import VAMPxROBOT.modules.sql.global_bans_sql as gban_sql
-import VAMPxROBOT.modules.sql.users_sql as user_sql
-from VAMPxROBOT import DEV_USERS, OWNER_ID, dispatcher
-from VAMPxROBOT.modules.helper_funcs.chat_status import dev_plus
+import MICKEYxROBOT.modules.sql.global_bans_sql as gban_sql
+import MICKEYxROBOT.modules.sql.users_sql as user_sql
+from MICKEYxROBOT import DEV_USERS, OWNER_ID, dispatcher
+from MICKEYxROBOT.modules.helper_funcs.chat_status import dev_plus
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.error import BadRequest, Unauthorized
 from telegram.ext import (

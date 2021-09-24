@@ -11,10 +11,10 @@ from telegram.ext import (
     run_async,
 )
 
-import VAMPxROBOT.modules.sql.users_sql as sql
-from VAMPxROBOT import DEV_USERS, LOGGER, OWNER_ID, dispatcher
-from VAMPxROBOT.modules.helper_funcs.chat_status import dev_plus, sudo_plus
-from VAMPxROBOT.modules.sql.users_sql import get_all_users
+import MICKEYxROBOT.modules.sql.users_sql as sql
+from MICKEYxROBOT import DEV_USERS, LOGGER, OWNER_ID, dispatcher
+from MICKEYxROBOT.modules.helper_funcs.chat_status import dev_plus, sudo_plus
+from MICKEYxROBOT.modules.sql.users_sql import get_all_users
 
 USERS_GROUP = 4
 CHAT_GROUP = 5

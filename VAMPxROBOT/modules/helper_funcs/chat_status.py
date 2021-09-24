@@ -2,7 +2,7 @@ from time import perf_counter
 from functools import wraps
 from cachetools import TTLCache
 from threading import RLock
-from VAMPxROBOT import (
+from MICKEYxROBOT import (
     DEL_CMDS,
     DEV_USERS,
     DRAGONS,
@@ -402,6 +402,6 @@ def connection_status(func):
 
 
 # Workaround for circular import with connection.py
-from VAMPxROBOT.modules import connection
+from MICKEYxROBOT.modules import connection
 
 connected = connection.connected

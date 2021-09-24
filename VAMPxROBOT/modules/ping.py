@@ -5,9 +5,9 @@ import requests
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, run_async
 
-from VAMPxROBOT import StartTime, dispatcher
-from VAMPxROBOT.modules.helper_funcs.chat_status import sudo_plus
-from VAMPxROBOT.modules.disable import DisableAbleCommandHandler
+from MICKEYxROBOT import StartTime, dispatcher
+from MICKEYxROBOT.modules.helper_funcs.chat_status import sudo_plus
+from MICKEYxROBOT.modules.disable import DisableAbleCommandHandler
 
 sites_list = {
     "Telegram": "https://api.telegram.org",

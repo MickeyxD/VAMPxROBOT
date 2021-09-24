@@ -27,5 +27,5 @@ if '%errorlevel%' NEQ '0' (
 :--------------------------------------
 :: your commands begin from this point.
 :: stops the service and then starts it
-net stop VAMPxROBOT
-net start VAMPxROBOT
+net stop MICKEYxROBOT
+net start MICKEYxROBOT

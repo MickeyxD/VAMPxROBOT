@@ -4,7 +4,7 @@ import os
 
 
 def get_user_list(config, key):
-    with open("{}/VAMPxROBOT/{}".format(os.getcwd(), config), "r") as json_file:
+    with open("{}/MICKEYxROBOT/{}".format(os.getcwd(), config), "r") as json_file:
         return json.load(json_file)[key]
 
 

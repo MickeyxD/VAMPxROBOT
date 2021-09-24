@@ -9,8 +9,8 @@
 
 from pyrogram import filters
 
-from VAMPxROBOT.pyrogramee.pluginshelper import admins_only, get_text
-from VAMPxROBOT import pbot
+from MICKEYxROBOT.pyrogramee.pluginshelper import admins_only, get_text
+from MICKEYxROBOT import pbot
 
 
 @pbot.on_message(filters.command("tagall") & ~filters.edited & ~filters.bot)

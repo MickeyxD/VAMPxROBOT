@@ -1,5 +1,5 @@
 from envparse import env
-from VAMPxROBOT import LOGGER
+from MICKEYxROBOT import LOGGER
 
 DEFAULTS = {
     "LOAD_MODULES": True,

@@ -4,7 +4,7 @@ import re
 from sys import argv
 from typing import Optional
 
-from VAMPxROBOT import (
+from MICKEYxROBOT import (
     ALLOW_EXCL,
     CERT_PATH,
     DONATION_LINK,
@@ -25,9 +25,9 @@ from VAMPxROBOT import (
 
 # needed to dynamically load modules
 # NOTE: Module order is not guaranteed, specify that in the config file!
-from VAMPxROBOT.modules import ALL_MODULES
-from VAMPxROBOT.modules.helper_funcs.chat_status import is_user_admin
-from VAMPxROBOT.modules.helper_funcs.misc import paginate_modules
+from MICKEYxROBOT.modules import ALL_MODULES
+from MICKEYxROBOT.modules.helper_funcs.chat_status import is_user_admin
+from MICKEYxROBOT.modules.helper_funcs.misc import paginate_modules
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
 from telegram.error import (
     BadRequest,
@@ -81,7 +81,7 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ᴀᴅᴅ ʏᴏɴᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️", url="t.me/VAMPxROBOT?startgroup=true"),
+            text="➕️ ᴀᴅᴅ ʏᴏɴᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️", url="t.me/MICKEYxROBOT?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="vamp_"),
@@ -117,7 +117,7 @@ CHAT_SETTINGS = {}
 USER_SETTINGS = {}
 
 for module_name in ALL_MODULES:
-    imported_module = importlib.import_module("VAMPxROBOT.modules." + module_name)
+    imported_module = importlib.import_module("MICKEYxROBOT.modules." + module_name)
     if not hasattr(imported_module, "__mod_name__"):
         imported_module.__mod_name__ = imported_module.__name__
 
@@ -357,7 +357,7 @@ def vamp_about_callback(update, context):
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
                  \n\n_vamp's licensed under the GNU General Public License v3.0_
-                 \nHere is the [💾Repository](https://github.com/D15H4NT0P/VAMPxROBOT).
+                 \nHere is the [💾Repository](https://github.com/D15H4NT0P/MICKEYxROBOT).
                  \n\nIf you have any question about vamp, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -385,7 +385,7 @@ def Source_about_callback(update, context):
     if query.data == "source_":
         query.message.edit_text(
             text=""" Hi..🤗 I'm *𝐕𝐀𝐌𝐏 𝐗*
-                 \nHere is the [Source Code](https://github.com/D15H4NT0P/VAMPxROBOT) .""",
+                 \nHere is the [Source Code](https://github.com/D15H4NT0P/MICKEYxROBOT) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(

@@ -1,8 +1,8 @@
 from random import randint
 
 import requests as r
-from VAMPxROBOT import SUPPORT_CHAT, WALL_API, dispatcher
-from VAMPxROBOT.modules.disable import DisableAbleCommandHandler
+from MICKEYxROBOT import SUPPORT_CHAT, WALL_API, dispatcher
+from MICKEYxROBOT.modules.disable import DisableAbleCommandHandler
 from telegram import Update
 from telegram.ext import CallbackContext, run_async
 

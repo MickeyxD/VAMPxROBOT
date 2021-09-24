@@ -1,7 +1,7 @@
 import threading
 from typing import Union
 
-from VAMPxROBOT.modules.sql import BASE, SESSION
+from MICKEYxROBOT.modules.sql import BASE, SESSION
 from sqlalchemy import Boolean, Column, Integer, String
 
 

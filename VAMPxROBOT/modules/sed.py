@@ -2,9 +2,9 @@ import sre_constants
 
 import regex
 import telegram
-from VAMPxROBOT import LOGGER, dispatcher
-from VAMPxROBOT.modules.disable import DisableAbleMessageHandler
-from VAMPxROBOT.modules.helper_funcs.regex_helper import infinite_loop_check
+from MICKEYxROBOT import LOGGER, dispatcher
+from MICKEYxROBOT.modules.disable import DisableAbleMessageHandler
+from MICKEYxROBOT.modules.helper_funcs.regex_helper import infinite_loop_check
 from telegram import Update
 from telegram.ext import CallbackContext, Filters, run_async
 

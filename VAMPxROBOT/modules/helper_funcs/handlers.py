@@ -1,6 +1,6 @@
-import VAMPxROBOT.modules.sql.blacklistusers_sql as sql
-from VAMPxROBOT import ALLOW_EXCL
-from VAMPxROBOT import DEV_USERS, DRAGONS, DEMONS, TIGERS, WOLVES
+import MICKEYxROBOT.modules.sql.blacklistusers_sql as sql
+from MICKEYxROBOT import ALLOW_EXCL
+from MICKEYxROBOT import DEV_USERS, DRAGONS, DEMONS, TIGERS, WOLVES
 
 from telegram import Update
 from telegram.ext import CommandHandler, MessageHandler, RegexHandler, Filters

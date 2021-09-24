@@ -1,5 +1,5 @@
-from VAMPxROBOT import pbot as app
-from VAMPxROBOT.utils.dbfunc import get_couple, save_couple
+from MICKEYxROBOT import pbot as app
+from MICKEYxROBOT.utils.dbfunc import get_couple, save_couple
 from pyrogram import filters
 import random
 from datetime import datetime

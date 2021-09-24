@@ -1,8 +1,8 @@
 import importlib
 import collections
 
-from VAMPxROBOT import dispatcher, telethn
-from VAMPxROBOT.__main__ import (
+from MICKEYxROBOT import dispatcher, telethn
+from MICKEYxROBOT.__main__ import (
     CHAT_SETTINGS,
     DATA_EXPORT,
     DATA_IMPORT,
@@ -13,7 +13,7 @@ from VAMPxROBOT.__main__ import (
     USER_INFO,
     USER_SETTINGS,
 )
-from VAMPxROBOT.modules.helper_funcs.chat_status import dev_plus, sudo_plus
+from MICKEYxROBOT.modules.helper_funcs.chat_status import dev_plus, sudo_plus
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, CommandHandler, run_async
 

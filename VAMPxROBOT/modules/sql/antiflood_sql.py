@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import String, Column, Integer, UnicodeText
 
-from VAMPxROBOT.modules.sql import SESSION, BASE
+from MICKEYxROBOT.modules.sql import SESSION, BASE
 
 DEF_COUNT = 1
 DEF_LIMIT = 0

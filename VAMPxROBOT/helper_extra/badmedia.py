@@ -1,4 +1,4 @@
-from VAMPxROBOT import telethn as tbot
+from MICKEYxROBOT import telethn as tbot
 import requests
 import time
 

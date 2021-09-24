@@ -2,8 +2,8 @@ import threading
 
 from sqlalchemy import Column, String, UnicodeText, Boolean, Integer, distinct, func
 
-from VAMPxROBOT.modules.helper_funcs.msg_types import Types
-from VAMPxROBOT.modules.sql import BASE, SESSION
+from MICKEYxROBOT.modules.helper_funcs.msg_types import Types
+from MICKEYxROBOT.modules.sql import BASE, SESSION
 
 
 class CustomFilters(BASE):

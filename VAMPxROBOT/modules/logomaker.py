@@ -1,6 +1,6 @@
-from VAMPxROBOT.events import register
-from VAMPxROBOT import OWNER_ID
-from VAMPxROBOT import telethn as tbot
+from MICKEYxROBOT.events import register
+from MICKEYxROBOT import OWNER_ID
+from MICKEYxROBOT import telethn as tbot
 import os 
 from PIL import Image, ImageDraw, ImageFont
 
@@ -20,13 +20,13 @@ async def lego(event):
  await event.reply('Creating your logo...wait!')
  try:
     text = event.pattern_match.group(1)
-    img = Image.open('./VAMPxROBOT/resources/blackbg.jpg')
+    img = Image.open('./MICKEYxROBOT/resources/blackbg.jpg')
     draw = ImageDraw.Draw(img)
     image_widthz, image_heightz = img.size
     pointsize = 500
     fillcolor = "gold"
     shadowcolor = "blue"
-    font = ImageFont.truetype("./VAMPxROBOT/resources/Chopsic.otf", 330)
+    font = ImageFont.truetype("./MICKEYxROBOT/resources/Chopsic.otf", 330)
     w, h = draw.textsize(text, font=font)
     h += int(h*0.21)
     image_width, image_height = img.size
@@ -36,7 +36,7 @@ async def lego(event):
     draw.text((x, y), text, font=font, fill="black", stroke_width=25, stroke_fill="yellow")
     fname2 = "LogoByvamp.png"
     img.save(fname2, "png")
-    await tbot.send_file(event.chat_id, fname2, caption="Made By VAMPxROBOT")
+    await tbot.send_file(event.chat_id, fname2, caption="Made By MICKEYxROBOT")
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
@@ -60,13 +60,13 @@ async def lego(event):
  await event.reply('Creating your logo...wait!')
  try:
     text = event.pattern_match.group(1)
-    img = Image.open('./VAMPxROBOT/resources/blackbg.jpg')
+    img = Image.open('./MICKEYxROBOT/resources/blackbg.jpg')
     draw = ImageDraw.Draw(img)
     image_widthz, image_heightz = img.size
     pointsize = 500
     fillcolor = "white"
     shadowcolor = "blue"
-    font = ImageFont.truetype("./VAMPxROBOT/resources/Maghrib.ttf", 1000)
+    font = ImageFont.truetype("./MICKEYxROBOT/resources/Maghrib.ttf", 1000)
     w, h = draw.textsize(text, font=font)
     h += int(h*0.21)
     image_width, image_height = img.size

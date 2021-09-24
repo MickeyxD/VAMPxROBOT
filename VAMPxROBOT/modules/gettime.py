@@ -2,8 +2,8 @@ import datetime
 from typing import List
 
 import requests
-from VAMPxROBOT import TIME_API_KEY, dispatcher
-from VAMPxROBOT.modules.disable import DisableAbleCommandHandler
+from MICKEYxROBOT import TIME_API_KEY, dispatcher
+from MICKEYxROBOT.modules.disable import DisableAbleCommandHandler
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, run_async
 

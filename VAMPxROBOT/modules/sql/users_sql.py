@@ -1,7 +1,7 @@
 import threading
 
-from VAMPxROBOT import dispatcher
-from VAMPxROBOT.modules.sql import BASE, SESSION
+from MICKEYxROBOT import dispatcher
+from MICKEYxROBOT.modules.sql import BASE, SESSION
 from sqlalchemy import (
     Column,
     ForeignKey,
