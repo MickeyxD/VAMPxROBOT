@@ -19,7 +19,6 @@ psutil
 aiohttp>=2.2.5
 Pillow>=4.2.0
 CurrencyConverter
-#googletrans
 google_trans_new
 jikanpy
 speedtest-cli
@@ -58,11 +57,8 @@ pytz
 lyricsgenius
 tswift
 envparse
-
-#profanity (Credits to Julia)
 better_profanity
 textblob 
 nudepy
-
 motor
 cloudscraper
